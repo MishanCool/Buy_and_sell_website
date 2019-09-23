@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-var usersSchema = new mongoose.Schema({
+var usersView = mongoose.model('Users' ,{
     fullName: {
         type: String
     },
@@ -23,9 +23,9 @@ var usersSchema = new mongoose.Schema({
         type: String
     },
 
-    password: {
-        type: String
-    },
+    // password: {
+    //     type: String
+    // },
 
     city: {
         type: String
@@ -40,4 +40,6 @@ var usersSchema = new mongoose.Schema({
     },
 });
               //Name of collection in mongoDB => 'users'  
-mongoose.model('users' , usersSchema );
+//mongoose.model('users' , usersSchema );
+
+module.exports = {usersView};
