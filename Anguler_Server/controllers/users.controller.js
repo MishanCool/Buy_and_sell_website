@@ -33,6 +33,7 @@ router.post('/' , (req,res) => {
     
         zip: req.body.zip,
     });
+    
     usersSchema.save((err , doc) => {
         if(!err) { res.send(doc); }
         else { console.log('Error in insert users:' + err); }
