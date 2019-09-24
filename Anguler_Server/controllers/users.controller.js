@@ -1,5 +1,6 @@
 const express = require('express');
 var router = express.Router();
+var ObjectId = require('mongoose').Types.ObjectId;
 
 var { usersView } = require('../models/users.model');
 
@@ -10,6 +11,11 @@ router.get('/' , (req,res) => {
         if(!err) { res.send(docs); }
         else { console.log('Error in retriving users:' + err); }
     });
+});
+
+router.get('/:id' , (req,res) => {
+    if(!ObjectId.isValid(req.params.id))
+        return res.status(400).send(`No record with given id : ${req.params.id}`);
 });
 
 
