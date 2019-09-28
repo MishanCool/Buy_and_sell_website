@@ -3,6 +3,7 @@
 const mongoose = require('mongoose');
 
 var usersView = mongoose.model('Users' ,{
+    
     fullName: {
         type: String
     },
