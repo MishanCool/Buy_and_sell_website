@@ -25,10 +25,6 @@ var usersView = mongoose.model('Users' ,{
         type: String
     },
 
-    // password: {
-    //     type: String
-    // },
-
     city: {
         type: String
     },
