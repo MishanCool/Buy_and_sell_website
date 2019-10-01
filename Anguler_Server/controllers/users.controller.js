@@ -12,7 +12,10 @@ router.get('/' , (req,res) => {
         else { console.log('Error in retriving users:' + err); }
     });
 });
+//##############retrive function#########################
 
+
+//Retrive data from given id
 router.get('/:id' , (req,res) => {
     if(!ObjectId.isValid(req.params.id))
         return res.status(400).send(`No record with given id : ${req.params.id}`);
@@ -22,6 +25,7 @@ router.get('/:id' , (req,res) => {
         else { console.log('Error in retrive user : ' +err); }
     });
 });
+//################Retrive data from given id##############
 
 
 router.post('/' , (req,res) => {
@@ -50,5 +54,37 @@ router.post('/' , (req,res) => {
         else { console.log('Error in insert users:' + err); }
     });
 });
+
+
+//Update operation
+router.put('/:id', (req,res) => {
+    if(!ObjectId.isValid(req.params.id))                                          // chek id valid or not
+        return res.status(400).send(`No recode with given id : ${req.params.id}`);
+
+    var userUpdate = {                   //create userUpdate object
+        fullName: req.body.fullName,
+    
+        email: req.body.email,
+    
+        password: req.body.password,
+    
+        address: req.body.address,
+    
+        address2: req.body.address2,
+    
+        city: req.body.city,
+    
+        state: req.body.state,
+    
+        zip: req.body.zip,
+    };
+
+    usersView.findByIdAndUpdate(req.params.id , { $set: userUpdate }, { new: true}, (err,doc) => {
+        if(!err) { res.send(doc);}
+        else{ console.log('Error in user update :' +err); }
+    });
+
+});
+//#############Update operation###################
 
 module.exports = router;
