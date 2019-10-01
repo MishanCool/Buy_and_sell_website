@@ -61,7 +61,7 @@ router.put('/:id', (req,res) => {
     if(!ObjectId.isValid(req.params.id))                                          // chek id valid or not
         return res.status(400).send(`No recode with given id : ${req.params.id}`);
 
-    var userUpdate = {                   //create userUpdate object
+    var userUpdate = {                     //create userUpdate object
         fullName: req.body.fullName,
     
         email: req.body.email,
@@ -86,5 +86,6 @@ router.put('/:id', (req,res) => {
 
 });
 //#############Update operation###################
+
 
 module.exports = router;
