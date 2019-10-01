@@ -88,4 +88,16 @@ router.put('/:id', (req,res) => {
 //#############Update operation###################
 
 
+//Delete operation
+router.delete('/:id', (req,res) => {
+    if(!ObjectId.isValid(req.params.id))                                          // chek id valid or not
+        return res.status(400).send(`No recode with given id : ${req.params.id}`);
+
+    usersView.findByIdAndRemove( req.params.id, (err,doc) => {
+        if(!err) { res.send(doc);}
+        else{ console.log('Error in user delete :' +err); }
+    });
+});
+//#############Delete operation####################
+
 module.exports = router;
