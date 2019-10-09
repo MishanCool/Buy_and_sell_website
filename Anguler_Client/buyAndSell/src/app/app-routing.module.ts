@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+// components
 import { RegisterComponent } from './components/register/register.component';
 
 

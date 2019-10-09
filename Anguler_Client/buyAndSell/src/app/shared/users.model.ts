@@ -1,4 +1,4 @@
-export class Users {
+export class Users { // users.service.ts file eke thiyana 'selectedUser: Users' vla Users
 
   // tslint:disable-next-line: variable-name
   _id: String;
