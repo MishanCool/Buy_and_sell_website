@@ -13,6 +13,5 @@ export class UsersService {
   selectedUser: Users; // users.model.ts file eke thiyana Users class eka
   users: Users[];
 
-
   constructor() { }
 }
