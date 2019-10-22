@@ -1,0 +1,17 @@
+{
+    "development": {
+
+        "PORT": 3006,
+        "MONGODB_URI": "mongodb://localhost:27017/meanLogin",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "10m"                                 
+    },
+
+    "production": {
+
+        "PORT": 80,
+        "MONGODB_URI": "mongodb://xxxxxx/DB_Name",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "2m"
+    }
+}

@@ -1,0 +1,24 @@
+INFO  time: initialize in 0.65s
+WARN  no build tool detected in workspace 'E:\MY_PROJECTS\MY\1_project\Buy and sell\Buy_and_sell_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  time: initialize in 0.7s
+WARN  no build tool detected in workspace 'E:\MY_PROJECTS\MY\1_project\Buy and sell\Buy_and_sell_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  time: initialize in 0.66s
+WARN  no build tool detected in workspace 'E:\MY_PROJECTS\MY\1_project\Buy and sell\Buy_and_sell_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 09, 2019 12:12:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Oct 09, 2019 12:12:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+INFO  shutting down Metals
+INFO  time: initialize in 0.66s
+WARN  no build tool detected in workspace 'E:\MY_PROJECTS\MY\1_project\Buy and sell\Buy_and_sell_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  time: initialize in 0.8s
+WARN  no build tool detected in workspace 'E:\MY_PROJECTS\MY\1_project\Buy and sell\Buy_and_sell_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  time: initialize in 0.59s
+WARN  no build tool detected in workspace 'E:\MY_PROJECTS\MY\1_project\Buy and sell\Buy_and_sell_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  time: initialize in 0.77s
+WARN  no build tool detected in workspace 'E:\MY_PROJECTS\MY\1_project\Buy and sell\Buy_and_sell_website'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
