@@ -4,6 +4,8 @@ import { HttpClient } from '@angular/common/http';
 
 
 import { AppRoutingModule } from './app-routing.module';
+
+// components
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
