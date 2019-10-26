@@ -1,6 +1,8 @@
+// built imports
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // import { HttpClient } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -28,6 +30,7 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     // HttpClient
     ModalModule.forRoot(),
     AlertModule.forRoot(),
