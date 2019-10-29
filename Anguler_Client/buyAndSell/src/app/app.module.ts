@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 
+
 import { AppRoutingModule } from './app-routing.module';
 
 // components
@@ -19,13 +20,15 @@ import { AlertModule } from 'ngx-bootstrap/alert';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { ImgCardComponent } from './components/img-card/img-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     HomeComponent,
-    NavigationComponent
+    NavigationComponent,
+    ImgCardComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
     CollapseModule.forRoot(),
     ProgressbarModule.forRoot(),
     BsDropdownModule.forRoot(),
+    // RouterModule.forRoot( appRoutes , { enableTracing: true }),
   ],
   providers: [],
   bootstrap: [AppComponent , NavigationComponent]
