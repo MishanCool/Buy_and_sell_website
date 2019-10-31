@@ -1,3 +1,4 @@
+import { Component } from '@angular/core';
 // built imports
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -13,6 +14,7 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { LoginComponent } from './Components/login/login.component';
 
 // ngx-bootstrap modules
 import { ModalModule } from 'ngx-bootstrap/modal';
@@ -22,13 +24,15 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { ImgCardComponent } from './components/img-card/img-card.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     HomeComponent,
     NavigationComponent,
-    ImgCardComponent
+    ImgCardComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
