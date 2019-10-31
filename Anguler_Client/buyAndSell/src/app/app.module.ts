@@ -15,6 +15,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { LoginComponent } from './Components/login/login.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 // ngx-bootstrap modules
 import { ModalModule } from 'ngx-bootstrap/modal';
@@ -23,6 +24,8 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { ImgCardComponent } from './components/img-card/img-card.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
+
 
 
 @NgModule({
@@ -32,7 +35,9 @@ import { ImgCardComponent } from './components/img-card/img-card.component';
     HomeComponent,
     NavigationComponent,
     ImgCardComponent,
-    LoginComponent
+    LoginComponent,
+    ProfileComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,
