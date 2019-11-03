@@ -26,6 +26,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { ImgCardComponent } from './components/img-card/img-card.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { UsersComponent } from './components/users/users.component';
 
 
 
@@ -40,7 +41,8 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     LoginComponent,
     ProfileComponent,
     SideBarComponent,
-    AdminComponent
+    AdminComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
