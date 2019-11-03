@@ -16,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { LoginComponent } from './Components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { AdminComponent } from './Components/admin/admin.component';
 
 // ngx-bootstrap modules
 import { ModalModule } from 'ngx-bootstrap/modal';
@@ -28,6 +29,7 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,8 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     ImgCardComponent,
     LoginComponent,
     ProfileComponent,
-    SideBarComponent
+    SideBarComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
