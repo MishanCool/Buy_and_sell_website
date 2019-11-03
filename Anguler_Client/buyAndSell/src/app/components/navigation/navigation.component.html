@@ -36,7 +36,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" id="left_nav_item">
                 <li class="nav-item">
                     <a class="nav-link" href="#pablo">
                         <span class="no-icon">Account</span>
@@ -47,7 +47,7 @@
                         <span class="no-icon">Dropdown</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="login">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <a class="dropdown-item" href="#">Something</a>
                         <a class="dropdown-item" href="#">Something else here</a>
@@ -55,10 +55,15 @@
                         <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login">
-                        <span class="no-icon">Log In</span>
-                    </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="no-icon">Log in</span>
+                  </a>
+                    <div class="dropdown-menu" id="reg_log_drop">
+                      <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something</a>
+                    </div>
                 </li>
             </ul>
         </div>
