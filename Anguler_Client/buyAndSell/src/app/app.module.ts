@@ -27,6 +27,7 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { ImgCardComponent } from './components/img-card/img-card.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { UsersComponent } from './components/users/users.component';
+import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
 
 
 
@@ -42,7 +43,8 @@ import { UsersComponent } from './components/users/users.component';
     ProfileComponent,
     SideBarComponent,
     AdminComponent,
-    UsersComponent
+    UsersComponent,
+    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
