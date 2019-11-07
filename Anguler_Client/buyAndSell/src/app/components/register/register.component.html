@@ -5,7 +5,7 @@
       <div class="w-100">
 
     	<div class="login-form-1"  he>
-          <form #registerForm="ngForm" id="register-form" class="text-left">
+          <form #registerForm="ngForm" ((ngSubmit)="onSubmit(registerForm)" ) id="register-form" class="text-left">
             <div class="login-form-main-message"></div>
             <div class="main-login-form">
               <div class="login-group">
@@ -58,6 +58,10 @@
               <p>already have an account? <a href="#">login here</a></p>
             </div>
           </form>
+
+          <div class="msg" *ngIf="showSuccessMsg">
+            save succes full
+          </div>
         </div>
 
       </div>
